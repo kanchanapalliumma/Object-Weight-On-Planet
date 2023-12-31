@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-conatainer">
+        <h1>Calculate a weight of an object on a  planet</h1>
+        <div class="inside-div">
+            <input type="text" id="input-field" placeholder="Mass in kilogram" >
+            <select id="select-option">
+                <option value="select-planet">--Select one planet--</option>
+                <option value="MERCURY">MERCURY</option>
+                <option value="VENUS">VENUS</option>
+                <option value="EARTH">EARTH</option>
+                <option value="MOON">MOON</option>
+                <option value="MARS">MARS</option>
+                <option value="JUPITER">JUPITER</option>
+                <option value="SATURN">SATURN</option>
+                <option value="URANUS">URANUS</option>
+                <option value="NEPTUNE">NEPTUNE</option>
+                <option value="PLUTO">PLUTO</option>
+            </select>
+            <button id="button-tag" onclick=display()>Calculate weight</button>
+        </div>
+        <div id="flex-section">
+            <div id="image-container">
+            </div>
+            <div id="message"></div>
+        </div>
+    </div>
+    <script src="node.js"></script>
+    
+</body>
+</html>
